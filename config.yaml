@@ -1,0 +1,47 @@
+# Project Configuration
+project:
+  name: "medical-insurance-cost-prediction"
+  version: "1.0.0"
+  description: "MLOps project for predicting medical insurance costs"
+
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  test_size: 0.2
+  random_state: 42
+
+features:
+  numerical:
+    - age
+    - bmi
+    - children
+  categorical:
+    - sex
+    - smoker
+    - region
+  target: charges
+
+model:
+  algorithms:
+    - linear_regression
+    - random_forest
+    - xgboost
+  
+  random_forest:
+    n_estimators: 100
+    max_depth: 10
+    random_state: 42
+  
+  xgboost:
+    n_estimators: 100
+    max_depth: 6
+    learning_rate: 0.1
+    random_state: 42
+
+mlflow:
+  experiment_name: "insurance-cost-prediction"
+  tracking_uri: "mlruns"
+
+api:
+  host: "0.0.0.0"
+  port: 8000
