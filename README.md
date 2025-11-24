@@ -136,7 +136,7 @@ This project demonstrates end-to-end MLOps practices for a regression problem - 
 ### Step 1: Clone the Repository
 
 ```bash
-cd C:\Users\SSIASDE\Workspace\medical_insurance_cost
+cd C:\Users\<YourUsername>\Workspace\medical_insurance_cost
 ```
 
 ### Step 2: Create Virtual Environment (Recommended)
@@ -735,14 +735,14 @@ Contributions are welcome! Please follow these steps:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👤 Author
-Ashish Desai
-Vivek Pise
-SACHIN GAIKWAD
-DINESH SINGH THAKUR
-JIMY PATEL
-MILIND MAHAJAN
-ASHWANI RANA
-**Your Name**
+        1. Ashish Desai
+        2. Vivek Pise
+        3. SACHIN GAIKWAD
+        4. DINESH SINGH THAKUR
+        5. JIMY PATEL
+        6. MILIND MAHAJAN
+        7. ASHWANI RANA
+
 - GitHub: [@ARD-IN](https://github.com/ARD-IN)
 
 ## 🙏 Acknowledgments
